@@ -9,12 +9,11 @@ rss = "podcast.rss"
 class Rss
   CONFIG_FILE = 'podcast.yml'
   PODCASTS = 'podcasts.csv'
-  @filename
-  @publish_time = Time.now.strftime "%a, %d %b %Y %H:%M:%S %z"
 
   def initialize(filename)
-    @config = readme = YAML::load( File.open( CONFIG_FILE ) )
     @filename = filename
+    @config = readme = YAML::load( File.open( CONFIG_FILE ) )
+    @publish_time = Time.now.strftime "%a, %d %b %Y %H:%M:%S %z"
   end  
 
   def update_or_create
@@ -25,6 +24,7 @@ class Rss
     end
   end
   
+private
   def build_item(xml, p)
     xml.title p['title']
     xml.link p['link to more info']
@@ -64,11 +64,11 @@ class Rss
           }
           xml.send :"itunes:explicit", @config['explicit'] 
           xml.send :"itunes:image", 'href' => @config['image'] 
-          xml.item{
-            FCSV.foreach(PODCASTS, :headers => true) do |row| 
+          FCSV.foreach(PODCASTS, :headers => true) do |row| 
+            xml.item{
               build_item xml, row.to_hash 
-            end
-          }
+            }
+          end
         } #channel
       } #rss
     end
