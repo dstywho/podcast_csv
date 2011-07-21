@@ -1,0 +1,66 @@
+<?xml version="1.0"?>
+<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+  <channel>
+    <title>My Podcast</title>
+    <description>blah blahb lahbl kajdfa</description>
+    <link>http://ajdfklasdjfasd</link>
+    <language>en-us</language>
+    <copyright>2011</copyright>
+    <lastBuildDate/>
+    <pubDate/>
+    <docs/>
+    <webMaster/>
+    <itunes:author>blah@blah</itunes:author>
+    <itunes:subtitle>blah blahb lahbl kajdfa</itunes:subtitle>
+    <itunes:summary>blah blahb lahbl kajdfa</itunes:summary>
+    <itunes:owner>
+      <itunes:name>blah@blah</itunes:name>
+      <itunes:email>blah@blah</itunes:email>
+    </itunes:owner>
+    <itunes:explicit>no</itunes:explicit>
+    <itunes:image href="http://google.com/blah.gif"/>
+    <item>
+  <title>adfasdf</title>
+  <link>asdfasdfas</link>
+  <guid>asdfas</guid>
+  <description>asdfas</description>
+  <enclosure url="asdfas" type="video/mpeg"/>
+  <category>TODO</category>
+  <pubDate/>
+  <itunes:author href="blah@blah"/>
+  <itunes:explicit href=""/>
+  <itunes:subtitle href="asdfas"/>
+  <itunes:summary href="asdfas"/>
+  <itunes:duration href=""/>
+  <itunes:keywords href=""/>
+</item><item>
+  <title>adfasdf</title>
+  <link>asdfasdfas</link>
+  <guid>ssss</guid>
+  <description>asdfas</description>
+  <enclosure url="ssss" type="video/mpeg"/>
+  <category>TODO</category>
+  <pubDate/>
+  <itunes:author href="blah@blah"/>
+  <itunes:explicit href=""/>
+  <itunes:subtitle href="asdfas"/>
+  <itunes:summary href="asdfas"/>
+  <itunes:duration href=""/>
+  <itunes:keywords href=""/>
+</item><item>
+      <title>adfasdf</title>
+      <link>asdfasdfas</link>
+      <guid>asdfasf</guid>
+      <description>asdfas</description>
+      <enclosure url="asdfasf" type="video/mpeg"/>
+      <category>TODO</category>
+      <pubDate/>
+      <itunes:author href="blah@blah"/>
+      <itunes:explicit href=""/>
+      <itunes:subtitle href="asdfas"/>
+      <itunes:summary href="asdfas"/>
+      <itunes:duration href=""/>
+      <itunes:keywords href=""/>
+    </item>
+  </channel>
+</rss>
